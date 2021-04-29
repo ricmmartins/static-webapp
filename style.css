@@ -1,47 +1,21 @@
-/* @import url(https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900); */
-body {
-  background-color: #141414;
-  
-  
-    margin:0; padding:0;
-    overflow-x:hidden;
-    height:100%;
-    font-family: 'Lato', Helvetica, arial, sans-serif;
-    font-weight: 300;
-    font-size: 20px;
-    line-height: 1.45;
-    color: #eee;
-    color: rgba(255,255,255,.85);
-}
-#container { 
-    padding-top: 50px;
-}
-#content {
-    max-width: 43em;
-    padding:10px;
-    margin: 0 auto;
-}
-h3 {
-    font-size: 2.4em;
-    font-weight: 300;
-    line-height: 1.5;
-}
-p, li {
-    font-size: 1.7em;
-}
-a {
-    font-weight: 700;
-    text-decoration: none;
-    color: #fff;
-}
-a:hover {
-    text-decoration: underline;
-}
-ul {
-    clear:both;
+* {
+  font-family: Arial, Helvetica, sans-serif;
 }
 
+html, body {
+  margin: 0;
+  border: 0;
+  padding: 0;
+  background-color: #fff;
+}
 
-html { font-size: 62.5%; }
-body { font-size: 1em;}
+main {
+  margin: auto;
+  width: 50%;
+  padding: 20px;
+}
 
+main > h1 {
+  text-align: center;
+  font-size: 3.5em;
+}
